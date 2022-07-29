@@ -1,12 +1,14 @@
 name: indices 
 channels:
   - conda-forge
+  - bioconda
   - defaults
 dependencies:
   - jupyter=1.0
   - networkx=2.5
   - pandas=1.4.1
   - python=3.10.4
+  - snakemake=7.9.0
   - statsmodels=0.13.2
   - tqdm=4.63.1
   - pip:
